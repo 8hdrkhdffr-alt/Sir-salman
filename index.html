@@ -414,6 +414,373 @@
 
   </footer>
 
+
+  <!-- ✨ A Little Surprise -->
+
+<section class="surprise-section">
+
+  <div class="sparkle">✦</div>
+
+  <h2>Sir, there is something I never got to say…</h2>
+
+  <p>
+
+    Some teachers teach a subject. Some teachers leave a memory.
+
+    You did both. 🤍
+
+  </p>
+
+  <button onclick="openSurprise()" class="surprise-btn">
+
+    Open this little memory 💌
+
+  </button>
+
+  <div id="surpriseMessage" class="surprise-message">
+
+    <h3>For You, Sir Salman ❤️</h3>
+
+    <p>
+
+      You always explained things patiently, even when we asked the same
+
+      question again and again. You never got tired of explaining.
+
+    </p>
+
+    <p>
+
+      I will always remember when you taught me
+
+      <strong>Even and Odd</strong>. It was a simple programming concept,
+
+      but it became a memory I will never forget.
+
+    </p>
+
+    <p>
+
+      In the beginning, you didn't talk much with us. But slowly,
+
+      our bond became so special. We started talking, sharing things,
+
+      laughing and asking questions.
+
+    </p>
+
+    <p>
+
+      You didn't only teach us programming. You taught us manners,
+
+      respect and little things that stay with us — like reminding us
+
+      to say <strong>“Assalamualaikum”</strong> instead of simply saying “Hi.”
+
+    </p>
+
+    <p>
+
+      These little lessons and memories will always have a special
+
+      place in our hearts. 🤍
+
+    </p>
+
+  </div>
+
+</section>
+
+<!-- 🌸 Things I'll Remember -->
+
+<section class="remember-section">
+
+  <h2>Things I'll Remember Forever 🌷</h2>
+
+  <div class="memory-cards">
+
+    <div class="memory-card">
+
+      <span>💻</span>
+
+      <h3>Even & Odd</h3>
+
+      <p>A little programming lesson that became a forever memory.</p>
+
+    </div>
+
+    <div class="memory-card">
+
+      <span>🫶</span>
+
+      <h3>Your Patience</h3>
+
+      <p>You explained things again and again until we understood.</p>
+
+    </div>
+
+    <div class="memory-card">
+
+      <span>💬</span>
+
+      <h3>Our Bond</h3>
+
+      <p>We didn't just ask questions. We shared things with you.</p>
+
+    </div>
+
+    <div class="memory-card">
+
+      <span>🌱</span>
+
+      <h3>Lessons Beyond Class</h3>
+
+      <p>You taught us manners, respect and things beyond programming.</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- 🤍 Best Wishes -->
+
+<section class="wishes-section">
+
+  <div class="wish-heart">♡</div>
+
+  <h2>My Best Wishes for You, Sir</h2>
+
+  <p>
+
+    May Allah always keep you happy, successful and peaceful.
+
+    May every new chapter of your life bring you something beautiful.
+
+  </p>
+
+  <p><strong>My prayers will always be for you, Sir.</strong> 🤍</p>
+
+  <p class="final-message">
+
+    You are a great teacher, and we will never forget you.
+
+  </p>
+
+  <div class="signature">
+
+    With sincere appreciation,<br>
+
+    <strong>Aleesha</strong> 🌸
+
+  </div>
+
+</section>
+
+<style>
+
+.surprise-section,
+
+.remember-section,
+
+.wishes-section {
+
+  text-align:center;
+
+  padding:60px 20px;
+
+  margin-top:30px;
+
+}
+
+.surprise-section {
+
+  background:linear-gradient(135deg,#fff5f8,#f8f3ff);
+
+  border-radius:30px;
+
+}
+
+.sparkle {
+
+  font-size:35px;
+
+  animation:sparkle 1.5s infinite;
+
+}
+
+.surprise-section h2,
+
+.remember-section h2,
+
+.wishes-section h2 {
+
+  margin-bottom:15px;
+
+}
+
+.surprise-btn {
+
+  margin-top:20px;
+
+  padding:14px 24px;
+
+  border:0;
+
+  border-radius:30px;
+
+  cursor:pointer;
+
+  font-size:16px;
+
+  background:white;
+
+  box-shadow:0 8px 25px rgba(0,0,0,.12);
+
+}
+
+.surprise-message {
+
+  display:none;
+
+  max-width:700px;
+
+  margin:30px auto 0;
+
+  padding:25px;
+
+  background:white;
+
+  border-radius:25px;
+
+  line-height:1.8;
+
+  animation:reveal 1s ease;
+
+}
+
+.surprise-message.show {
+
+  display:block;
+
+}
+
+.memory-cards {
+
+  display:grid;
+
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+  gap:20px;
+
+  max-width:900px;
+
+  margin:30px auto;
+
+}
+
+.memory-card {
+
+  padding:25px;
+
+  border-radius:25px;
+
+  background:white;
+
+  box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+  transition:.4s;
+
+}
+
+.memory-card:hover {
+
+  transform:translateY(-10px);
+
+}
+
+.memory-card span {
+
+  font-size:35px;
+
+}
+
+.memory-card p,
+
+.wishes-section p {
+
+  line-height:1.8;
+
+}
+
+.wishes-section {
+
+  background:linear-gradient(135deg,#fff9f2,#f5f8ff);
+
+  border-radius:30px;
+
+}
+
+.wish-heart {
+
+  font-size:55px;
+
+  animation:heartbeat 1.5s infinite;
+
+}
+
+.signature {
+
+  margin-top:30px;
+
+  font-size:18px;
+
+  line-height:1.8;
+
+}
+
+.final-message {
+
+  font-size:18px;
+
+}
+
+@keyframes sparkle {
+
+  0%,100% {transform:scale(1) rotate(0);opacity:.6;}
+
+  50% {transform:scale(1.4) rotate(20deg);opacity:1;}
+
+}
+
+@keyframes heartbeat {
+
+  0%,100% {transform:scale(1);}
+
+  50% {transform:scale(1.15);}
+
+}
+
+@keyframes reveal {
+
+  from {opacity:0;transform:translateY(25px);}
+
+  to {opacity:1;transform:translateY(0);}
+
+}
+
+</style>
+
+<script>
+
+function openSurprise() {
+
+  document.getElementById("surpriseMessage").classList.toggle("show");
+
+}
+
+</script>
+
 </body>
 
 </html>
